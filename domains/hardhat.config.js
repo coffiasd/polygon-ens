@@ -8,5 +8,5 @@ task("accounts", "Prints accounts", async (_, { web3 }) => {
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.9",
+  solidity: "0.8.10",
 };
