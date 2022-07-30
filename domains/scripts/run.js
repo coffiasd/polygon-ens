@@ -7,7 +7,7 @@ const main = async () => {
     console.log("Contract deployed to:", domainContract.address);
 
     // We're passing in a second variable - value. This is the moneyyyyyyyyyy
-    let txn = await domainContract.register("mor", { value: hre.ethers.utils.parseEther('1') });
+    let txn = await domainContract.register("morasd", { value: hre.ethers.utils.parseEther('0.1') });
     await txn.wait();
 
     const address = await domainContract.getAddress("mortal");
